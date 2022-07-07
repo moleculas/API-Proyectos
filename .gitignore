@@ -5,3 +5,5 @@ mern-context-crud/cliente/node_modules
 graphql-nodejs-jwt/node_modules
 graphql-apolo-nodejs-jwt/server/node_modules
 graphql-apolo-nodejs-jwt/client/node_modules
+CRM-GraphQL-React/server/node_modules
+CRM-GraphQL-React/client/node_modules
