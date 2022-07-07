@@ -2,3 +2,6 @@ graphql-react-project/backend/node_modules
 graphql-react-project/client/node_modules
 mern-context-crud/node_modules
 mern-context-crud/cliente/node_modules
+graphql-nodejs-jwt/node_modules
+graphql-apolo-nodejs-jwt/server/node_modules
+graphql-apolo-nodejs-jwt/client/node_modules

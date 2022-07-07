@@ -1,0 +1,22 @@
+type Query {
+  ping: String!,
+  users: [User!]
+}
+
+type Mutation {
+  registerUser(userName: String!, password: String!, email: String!, displayName: String!): AuthPayload,
+  loginUser(email: String!, password: String!): AuthPayload
+}
+
+type AuthPayload {
+  token: String,
+  user: User
+}
+
+type User {
+  _id: ID!,
+ userName: String!, 
+ password: String!, 
+ email: String!, 
+ displayName: String!
+}
